@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "bus-booking-frontend"
         CONTAINER_NAME = "booking-ui"
-        PORT = "8080"
+        PORT = "5500"
     }
 
     stages {
