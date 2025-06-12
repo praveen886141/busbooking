@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Cloning source code from Git..."
-                git 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'  // Replace with your repo URL
+                git 'https://github.com/praveen886141/busbooking.git'  // Replace with your repo URL
             }
         }
 
